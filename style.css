@@ -10,12 +10,16 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background: url(201978759-wavy-black-textured-metallic-3d-background-with-generative-ai.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .wrapper{
     width: 420px;
-    background: purple;
     color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin: 0;
 }
 .wrapper h1{
     font-size: 36px;
@@ -82,10 +86,13 @@ body{
 .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 15px;
 }
 .register-link p a{
     color: #fff;
     text-decoration: none;
-    
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
 }
